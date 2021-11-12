@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Olya</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="bx bxs-home-heart nav__icon"></i>Home</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"
+                ><i class="bx bxs-user-circle nav__icon"></i>Objective</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"
+                ><i class="bx bx-book-open nav__icon"></i>Education</a
+              >
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="bx bxl-sketch nav__icon"></i>Skills</a
+              >
+            </li>
+
+            <li class="nav__item">
+                <a href="#additional" class="nav__link"
+                  ><i class='bx bx-happy-beaming'></i></i>Additional Info</a
+                >
+              </li>
+          </ul>
+        </div>
+
+        <di class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </di>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/avatar.jpg" alt="" class="home__img" />
+                <h1 class="home__title">KOKHANEVYCH <b>OLYA MARIIA</b></h1>
+                <h3 class="home__profession">Web developer</h3>
+                <div>
+                  <a download="" href="assets/pdf/CV newpiece.pdf" class="home__button-movil">Download</a>
+                </div>
+              </div>
+              <div class="home__address bd-grid">
+                <span class="home__information"
+                  ><i class="bx bxs-map-pin home__icon"></i>Puluya str, Lviv, Ukraine</span
+                >
+                <span class="home__information"
+                  ><i class="bx bx-envelope-open home__icon"></i
+                  >olya.kokhanevych@gmail.com</span
+                >
+                <span class="home__information"
+                  ><i class='bx bxs-phone home__icon' ></i></i>+380634890629</span
+                >
+              </div>
+            </div>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+              <h2 class="section-title">SOCIAL</h2>
+              <div class="social__container bd-grid"><a href="https://www.facebook.com/" target="_blank" class="social__link">
+                <i class='bx bxl-facebook-circle social__icon'></i>@olya_mariia
+              </a>
+            
+              <a href="https://www.instagram.com/olya_mariia" target="_blank" class="social__link">
+                <i class='bx bxl-instagram-alt social__icon' ></i>@olya_mariia
+              </a>
+            
+              <a href="https://web.telegram.org/" target="_blank" class="social__link">
+                <i class='bx bxl-telegram social__icon' ></i>@olya_mariia
+              </a></div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+              <h2 class="section-title">Objective</h2>
+              <p class="profile__description">To start a career as a Junior Front End Developer and after some time with all gained experience to become Senior Front End Developer.</p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+              <h2 class="section-title">Education</h2>
+        <div class="education__container bd-grid">
+         <div class="education__content">
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+
+            <div class="education__data bd-grid">
+                <span class="education__studies">Lviv Polytechnic National University</span>
+                <span class="education__year">2012 - 2016</span>
+                <h3 class="education__title">Faculty of Journalism (The Subject of my Diploma – “Importance of good layout in mass-media”)</h3>
+            </div> 
+        </div>
+
+        <div class="education__content">
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <span class="education__line"></span>
+            </div>
+            <div class="education__data bd-grid">
+                <span class="education__studies">Logos IT Academy</span>
+                <span class="education__year">April – October 2017</span>
+                <h3 class="education__title">Programming Basics: HTML/CSS, JavaScript, JavaScript Advanced(successful completion of 132 academic hours)</h3>
+              
+            </div> 
+        </div>
+
+        <div class="education__content">
+            <div class="education__time">
+                <span class="education__rounder"></span>
+                <!-- <span class="education__line"></span> -->
+            </div>
+
+            <div class="education__data bd-grid">
+                <span class="education__studies">Language Step</span>
+                <span class="education__year">2015</span>
+                <h3 class="education__title">Certificate of Upper-Intermediate English level</h3>
+            </div> 
+        </div>
+    </div>
+    </section>
+
+          
+        </div>
+
+        <div class="resume__right">
+            <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__content bd-grid">
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Html
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Css
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> JavaScript
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Angular JS
+                    </li>
+                </ul>
+
+                <ul class="skills__data">
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Basic JQuery
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Basic Ajax
+                    </li>
+                    <li class="skills__name">
+                        <span class="skills__circle"></span> Basic NodeJS
+                    </li>
+                </ul>
+            </div>
+          </section>
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+            <div class="languages__container">
+                <ul class="languages__content bd-grid">
+                    <li class="languages__name">
+                        <span class="languages__circle"></span>Ukraine - Native
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span>English – Upper-Intermediate
+                    </li>
+                    <li class="languages__name">
+                        <span class="languages__circle"></span>Russian – Fluent
+                    </li>
+                </ul>
+            
+            </div>
+          </section>
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section" id="additional">
+            <h2 class="section-title">Additional Info</h2>
+            <div class="interests__container bd-grid">
+                <div class="interests__content">
+                    <i class='bx bxs-plane-alt'></i>
+                    <span class="interets__name">traveler</span>
+                </div>
+
+                <div class="interests__content">
+                    <i class='bx bxs-palette'></i>
+                    <span class="interets__name">co-owner of jewelry brand, creator of website 
+                        <a href="http://www.motherofcrystal.com/">Motherofcrystal</a>
+                    </span>
+                </div>
+
+                <div class="interests__content">
+                    <i class='bx bxs-graduation'></i>
+                    <span class="interets__name">my graduation 
+                        <a href="https://github.com/OlyaMari/My-project.git">project</a>
+                    </span>
+                </div>
+            </div>
+
+
+
+          </section>
+        </div>
+      </div>
+    </main>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
